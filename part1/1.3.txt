@@ -1,0 +1,6 @@
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+
+Commands to get here are:
+1. docker run --name tehtava devopsdockeruh/simple-web-service:ubuntu
+2. docker exec -it tehtava bash
+3. in the bash command line the given command "tail -f ./text.log"
