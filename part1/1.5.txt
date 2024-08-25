@@ -1,0 +1,16 @@
+❯ docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+
+❯ docker run -d fd312
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+48472e996b39187826ab3c90c3f67ce2d36b948542364223cbe7da82d309a7ab
+
+❯ docker exec -it 48 sh -c 'cat text.log'
+2024-08-25 18:10:29 +0000 UTC
+2024-08-25 18:10:31 +0000 UTC
+2024-08-25 18:10:33 +0000 UTC
+2024-08-25 18:10:35 +0000 UTC
+2024-08-25 18:10:37 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
