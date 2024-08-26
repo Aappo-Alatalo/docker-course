@@ -1,0 +1,3 @@
+First I created the log file with "touch text.log"
+
+Then I used command "docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service"
