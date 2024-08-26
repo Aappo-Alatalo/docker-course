@@ -1,0 +1,6 @@
+FRONTEND:
+docker run -p 64791:5000 teht12
+# I used port 64791 since 5000 is taken by my OS
+
+BACKEND:
+docker run -p 8080:8080 teht13
