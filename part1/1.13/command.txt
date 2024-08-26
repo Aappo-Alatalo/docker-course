@@ -1,0 +1,3 @@
+docker run -p 8080 teht13
+
+(then used docker ps to find the port my host machine mapped to container's 8080)
