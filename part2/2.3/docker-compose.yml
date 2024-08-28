@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: teht12
+    ports:
+      - 64791:5000
+  
+  backend:
+    image: teht13
+    ports:
+      - 8080:8080
