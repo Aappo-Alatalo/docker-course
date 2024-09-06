@@ -1,0 +1,5 @@
+frontend-before           latest    a561c806f677   About a minute ago   1.23GB
+backend-before            latest    6bc1dabd3e0e   2 hours ago          1.29GB
+
+frontend-after            latest    070ccbd8555d   13 seconds ago   865MB
+backend-after             latest    d0ccd876f2bc   2 minutes ago       1.13GB
