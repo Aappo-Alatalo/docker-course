@@ -1,0 +1,2 @@
+REPOSITORY                TAG       IMAGE ID       CREATED          SIZE
+multistager-frontend      latest    3f9f16a61840   8 seconds ago    48.2MB
